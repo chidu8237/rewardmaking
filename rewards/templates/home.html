@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/demo.css' %}">
+    <title>Title</title>
+    <style media="screen">
+   nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+nav .search input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 180px;
+}
+
+nav .search button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+nav .search button:hover {
+  background-color: #444;
+}
+    </style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="#">AC Bal:00.00</a></li>
+    <li><a href="#">Tasks:</a></li>
+    <li><a href="#">Completed:</a></li>
+      <li><a href="#">Uncompleted:</a></li>
+     <li><a href="{% url 'logout' %}"class="btn btn-primary">Logout</a></li>
+
+      </form>
+    </li>
+  </ul>
+</nav>
+
+    <h1>This website is Under construction</h1>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+width:500px;
+  padding: 10px;
+}
+td {
+width:250px;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th style="width=250px">Tasks</th>
+    <th style="width=100px">link</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+
+</body>
+</html>
